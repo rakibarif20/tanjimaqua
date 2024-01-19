@@ -1,0 +1,19 @@
+input [type=number] {
+    appearance: textfield;
+
+}
+
+/* @media screen and(max-width:756px){
+    input [type=number]{
+        appearance : textfield;
+    }
+} */
+
+@media only screen and (max-width : 776px) {
+    input[type=number]::-webkit-inner-spin-button, 
+
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: textfield;
+      
+    }
+}
